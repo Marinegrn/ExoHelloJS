@@ -6,7 +6,8 @@ message += firstName + ' !'; // Concaténation de message et First Name
 console.log(message);
 
 
-function sayHello (firstName, hour) { // Déclaration fonction et du 2ème paramètre
+// Déclaration fonction et du 2ème paramètre
+function sayHello (firstName, hour) { 
     let message = 'Bonjour '// Décla' variable message
     message += firstName; // concaténation du paramètre firstName et message
 
@@ -14,7 +15,7 @@ function sayHello (firstName, hour) { // Déclaration fonction et du 2ème param
     if (hour >= 18) {
         console.log('Bonsoir ' + firstName + '!');         
     } else { 
-        console.log(message + '!'); // // Sinon, afficher 'Bonjour Beyonce !'
+        console.log(message + '!'); // Sinon, afficher 'Bonjour Beyonce !'
     }
 
 }
